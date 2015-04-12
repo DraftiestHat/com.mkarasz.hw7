@@ -11,6 +11,7 @@ import java.util.ArrayList;
 
 /**
  * For reading in a song text file.
+ * @author Matt
  */
 public class ReadSongFile {
 	
