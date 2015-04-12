@@ -9,8 +9,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 
+/**
+ * The Class Main.
+ * @author Matt
+ */
 public class Main {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		
@@ -27,6 +36,12 @@ public class Main {
 		System.out.println();
 	}
 	
+	/**
+	 * Write the text to a file.
+	 *
+	 * @param list the list
+	 * @param fileName the file name
+	 */
 	protected static void textWrite(ArrayList<Integer> list, String fileName) {
 		BufferedWriter buf = null;
 		
@@ -56,7 +71,9 @@ public class Main {
 		//System.out.println(fileName + " printed.");
 	}
 	
-	/** Reads the elements from a text file of the form given to me
+	/**
+	 *  Reads the elements from a text file of the form given to me.
+	 *
 	 * @param fileName the file to read
 	 * @return the arrayList of elements from the text file
 	 */
